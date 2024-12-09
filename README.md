@@ -22,6 +22,7 @@ Pinecone Storage: Pinecone is used to store the vector embeddings of the documen
 Query Answering: User queries are answered by finding the most similar document chunks and using OpenAI's language model to generate a response based on those chunks.
 
 Model Interaction
+
 The project uses OpenAI for embedding and question answering. Pinecone is used for storing the embeddings and performing similarity search. Below are the key components:
 
 Document Loading: PDF documents are loaded using PyPDFDirectoryLoader.
